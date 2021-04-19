@@ -1,0 +1,209 @@
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+  html,body{
+    overflow-x: hidden;
+}
+  .banner{
+    height: 80vh;
+  }
+  .banner_text {
+    height: 80vh;
+  
+}
+
+.banner_form {
+    height: 80vh;
+    }
+
+.service h4{
+  margin-left: 25px;
+  padding-left: 25px;
+  
+}
+.service p{
+   padding-left: 25px;
+   margin-left: 25px;
+}
+
+.service button{
+   margin-left: 45px;
+ }
+
+ .left_feature .mdltext{
+  margin-top: 40px;
+ }
+
+.sub_list .row {
+    flex-direction: column;
+
+}
+.sub_list .col-md-6{
+  width: 100%;
+}
+
+.sub_list .sblist_img{
+  text-align: center;
+}
+
+}
+
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 560px) {
+  
+  /* CSS */
+  html,body{
+    overflow-x: hidden;
+}
+
+ .banner{
+    height: auto;
+    padding:40px 0;
+  } 
+
+.banner_form .card_body{
+  padding: 0;
+}
+
+.banner_text {
+    height: auto;
+    text-align:center;
+
+  }
+
+  .Design{
+    height: auto;
+     padding:40px 0;
+  }
+
+  .banner_text .line{
+    margin: auto;
+
+  }
+
+  .banner_text p{
+  margin: 20px 0;
+  width: 100%;
+}
+.banner_text h1{
+  margin: 20px 0;
+  width: 100%;
+}
+
+.sm_left {
+    text-align: center;
+}
+
+.Social_media ul{
+  padding-left: 0;
+}
+
+.service{
+    padding: 60px 0px;
+}
+.service ul li {
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    }
+
+.service ul{
+    padding-left: 0px;
+
+}
+.service h4{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.service p{
+    text-align: center;
+    padding: 10px 0;
+}
+
+.serDiv{
+   text-align: center;
+   margin: 20px 0;
+}
+
+.sub_list{
+  padding: 40px 0;
+}
+.sub_list h4 {
+  text-align: center;
+}
+.sub_list .str_line{
+  margin: auto;
+}
+
+.sub_list p{
+  text-align: center;
+}
+
+.standard_pic{
+  padding: 40px 0;
+}
+.standard_pic h4 {
+  text-align: center;
+  margin: 20px 0;
+}
+.standard_pic .str_line{
+  margin: auto;
+
+}
+
+.standard_pic p{
+  text-align: center;
+}
+
+.review{
+    padding: 60px 0px;
+        
+ }
+
+ .left_rvw .rvw1{
+  text-align: center;
+  }
+
+.rvw_des{
+  margin: auto;
+}
+
+.rvw_des {
+    padding: 20px 33px;
+}
+
+.inpt_frm2{
+  margin-left: 0px;
+}
+.inpt_frm2 textarea{
+  
+  margin-top: 10px;
+  padding-top: 15px;
+}
+
+.msg_btn{
+   text-align: center;
+}
+.btn3{
+  margin: 10px 30px;
+
+}
+
+.footer ul{
+  width: 100%;
+}
+
+}
